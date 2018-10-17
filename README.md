@@ -1,12 +1,12 @@
-# cronlock
+# Cronlock
 Run cronjobs in distributed environments
 
 # Usage
 
-`
+```bash
 * * * * * /usr/bin/cronlock logKey ping google.com
 * * * * * cd /var/www/; /usr/bin/cronlock /usr/bin/php logKey test.php
-`
+```
 
 where,
 * logKey is a filename where the output of the cron will be saved
